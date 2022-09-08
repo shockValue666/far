@@ -2,7 +2,8 @@ import { createTheme } from '@material-ui/core/styles';
 import { DeviceType } from '../providers/ViewportProvider';
 
 const PRIMARY_COLOR = '#e86bff';
-const SECONDARY_COLOR = '#01ffa3';
+// const SECONDARY_COLOR = '#01ffa3';
+const SECONDARY_COLOR = "rgba(248,199,140,255)";
 
 const theme = ({ device }: { device: DeviceType }) =>
   createTheme({

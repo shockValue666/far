@@ -75,7 +75,8 @@ const RaffleOngoingScreen: FC<IRaffleOngoingScreenProps> = ({
                 <IconButton
                   size="medium"
                   className={classes.backButton}
-                  onClick={() => push(routes.RAFFLES)}
+                  // onClick={() => push(routes.RAFFLES)}
+                  onClick={() => push("/")}
                 >
                   <ArrowBack />
                 </IconButton>
@@ -107,6 +108,7 @@ const RaffleOngoingScreen: FC<IRaffleOngoingScreenProps> = ({
                         })
                       }
                     >
+                      <h2>some shit</h2>
                       <span>See all {raffle.prizes.length}</span>
                     </Button>
                   </>

@@ -93,6 +93,20 @@ const prodWhitelist = new Map<string, RaffleMetaData>([
       overviewImageUri: '/resources/ticket.png',
     },
   ],
+  [
+    'BTo3otoe1wFjqahD8nLmKhMHUt433xPE78iTyF1tr4za',
+    {
+      name: 'half finished',
+      overviewImageUri: '/resources/ticket.png',
+    },
+  ],
+  [
+    'Dw7BUbft4JohwwVPVG6KWYnadggUgu73LwArffVJrWQ8',
+    {
+      name: 'ticket for my cock',
+      overviewImageUri: '/resources/ticket.png',
+    },
+  ],
 ]);
 
 export const RAFFLES_WHITELIST = TESTING ? testWhitelist : prodWhitelist;

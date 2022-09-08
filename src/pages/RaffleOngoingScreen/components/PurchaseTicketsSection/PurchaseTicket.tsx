@@ -350,10 +350,12 @@ export const PurchaseTickets: FC<PurchaseTicketsProps> = ({
                   disableRipple
                   className={classes.maxButton}
                   onClick={() => {
-                    let maxTickets = Math.min(
-                      MAX_TICKET_AMOUNT - raffle.totalTickets,
-                      maxTicketsToBuyable.toNumber()
-                    );
+                    // let maxTickets = Math.min(
+                    //   MAX_TICKET_AMOUNT - raffle.totalTickets,
+                    //   maxTicketsToBuyable.toNumber()
+                    // );
+                    let maxTickets = Math.floor((raffle.entrantsCap-raffle.totalTickets)/5)
+                    console.log("raffle bitch: ",maxTickets)
                     setTicketAmount(maxTickets);
                   }}
                 >

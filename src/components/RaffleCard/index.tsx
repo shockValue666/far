@@ -52,7 +52,8 @@ const RaffleCard: FC<RaffleCardProps> = ({
   return (
     <Card
       onClick={() => {
-        push(`${routes.RAFFLES}/${raffle.publicKey}`);
+        // push(`${routes.RAFFLES}/${raffle.publicKey}`);
+        push(`/${raffle.publicKey}`);
       }}
       className={`${classes.root} ${className}`}
       {...otherProps}

@@ -134,7 +134,8 @@ const RaffleEndedScreen: FC<IRaffleEndedScreenProps> = ({
                 <IconButton
                   size="medium"
                   className={classes.backButton}
-                  onClick={() => push(routes.RAFFLES)}
+                  // onClick={() => push(routes.RAFFLES)}
+                  onClick={() => push("/")}
                 >
                   <ArrowBack className={classes.backButtonIcon} />
                 </IconButton>

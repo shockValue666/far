@@ -45,7 +45,7 @@ const ExploreRafflesScreen: FC = () => {
     return (
       <>
         <Typography variant="h1" className={classes.titleBar}>
-          Explore dRaffles
+          Welcome to the Depraved Circus
         </Typography>
         <div className={classes.mainContent}>
           <CircularProgress color="secondary" />
@@ -57,10 +57,10 @@ const ExploreRafflesScreen: FC = () => {
     return (
       <>
         <Typography variant="h1" className={classes.titleBar}>
-          Explore dRaffles
+          Welcome to the Depraved Circus
         </Typography>
         <Typography variant="h4" className={classes.mainContent}>
-          dRaffles will be coming soon!
+          Raffles will be coming soon!
         </Typography>
       </>
     );
@@ -68,7 +68,7 @@ const ExploreRafflesScreen: FC = () => {
   return (
     <>
       <Typography variant="h1" className={classes.titleBar}>
-        Explore dRaffles
+        Welcome to the Depraved Circus
       </Typography>
       <FilterBar
         hideEndedRaffles={hideEndedRaffles}
@@ -85,16 +85,19 @@ const ExploreRafflesScreen: FC = () => {
           {rafflesToShow
             .filter((r) => r.prizes.length > 0)
             .map((raffle) => (
+              <>
               <RaffleCard
                 key={raffle.publicKey.toString()}
                 className={classes.raffleCardContainer}
                 raffle={raffle}
               />
+              {/* <button onClick={()=>{console.log(raffle.prizes[0].meta.imageUri)}} >poutsa</button> */}
+              </>
             ))}
         </Grid>
       ) : (
         <Typography variant="h4" className={classes.mainContent}>
-          No dRaffles to display.
+          No Raffles to display.
         </Typography>
       )}
     </>

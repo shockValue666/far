@@ -15,6 +15,8 @@ export const useStyles = makeStyles((theme: Theme) => ({
   },
   prizeItem: {
     margin: '0 5px 30px 5px',
+    width:"300px",
+    height:"500px"
   },
   claimButtonContainer: {
     marginTop: '20px',

@@ -73,7 +73,7 @@ const PrizeCardOngoing: FC<PrizeCardOngoingProps> = ({
           }}
           src={imageUrl}
           alt={prize.mint.name}
-          style={isLoaded ? {} : { display: 'none' }}
+          style={isLoaded ? {height:"500px"} : { display: 'none' }}
           onLoad={() => setIsLoaded(true)}
         />
         <CardActions className={classes.prizeInfo}>

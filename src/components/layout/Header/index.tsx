@@ -21,10 +21,10 @@ export interface HeaderProps {
 }
 
 const NAV_LINKS_LIST = [
-  { label: 'Home', target: routes.HOME },
-  { label: 'Explore', target: routes.RAFFLES },
-  { label: 'Stake', target: routes.STAKE },
-  { label: 'Tools', target: routes.TOOLS },
+  // { label: 'Home', target: routes.HOME },
+  // { label: 'Raffles', target: routes.RAFFLES },
+  // { label: 'Stake', target: routes.STAKE },
+  // { label: 'Tools', target: routes.TOOLS },
   { label: 'Admin Panel', target: routes.ADMIN.HOME, admin: true },
 ];
 
@@ -76,8 +76,13 @@ const Header: FC<HeaderProps> = ({ onBackNavigation }) => {
                 onClick={() => push(routes.HOME)}
                 className={classes.homeButton}
               >
-                <img
+                {/* <img
                   src="/dRaffle-LC-banner.png"
+                  alt={'Site banner'}
+                  className={classes.homeButtonIcon}
+                /> */}
+                <img
+                  src="/output-onlinepngtools.png"
                   alt={'Site banner'}
                   className={classes.homeButtonIcon}
                 />
