@@ -11,7 +11,7 @@ import { ArrowForward } from '@material-ui/icons';
 import { useHistory } from 'react-router';
 
 import { Raffle } from '../../lib/types';
-import { routes } from '../../router/routes';
+// import { routes } from '../../router/routes';
 import Countdown from '../Countdown';
 import { getDisplayAmount } from '../../lib/accounts';
 import { useStyles } from './styles';
