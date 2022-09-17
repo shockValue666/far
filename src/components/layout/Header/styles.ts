@@ -27,7 +27,8 @@ export const useStyles = makeStyles<Theme, { device: DeviceType }>(
       boxShadow: '0 0 10px 0 #000',
       zIndex: 99,
       marginTop:"30px",
-      marginBottom:"30px"
+      marginBottom:"30px",
+      position:"absolute"
     }),
     navContainer: {
       display: 'flex',

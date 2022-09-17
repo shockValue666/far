@@ -92,7 +92,7 @@ const RaffleEndedScreen: FC<IRaffleEndedScreenProps> = ({
   return (
     <div className={classes.root}>
       {device === DeviceType.Phone ? (
-        <>
+        <div style={{marginTop:"50px"}}>
           <Typography variant="h1">
             {`> ${raffle.metadata.name}`}
             <span className={classes.raffleSubtitle}>[ended]</span>
@@ -125,7 +125,7 @@ const RaffleEndedScreen: FC<IRaffleEndedScreenProps> = ({
             scrollRef={prizeGalleryRef}
           />
           <div className={classes.spacer} />
-        </>
+        </div>
       ) : (
         <>
           <div className={classes.topSection}>

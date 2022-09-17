@@ -11,6 +11,7 @@ export const useStyles = makeStyles<Theme, { device: DeviceType }>(
     },
     titleBar: ({ device }) => ({
       marginBottom: device === DeviceType.Phone ? '20px' : '50px',
+      marginTop: device === DeviceType.Phone ? '20px' : '50px',
     }),
     mainContent: {
       marginTop: '100px',

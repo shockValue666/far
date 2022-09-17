@@ -51,7 +51,7 @@ const Header: FC<HeaderProps> = ({ onBackNavigation }) => {
         {device === DeviceType.Phone ? (
           <div className={classes.drawerHeader}>
             {onBackNavigation ? (
-              <IconButton size={'medium'} onClick={() => onBackNavigation()}>
+              <IconButton size={'medium'} onClick={() => push("/")}>
                 <ChevronLeft />
               </IconButton>
             ) : (
