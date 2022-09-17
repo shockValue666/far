@@ -37,7 +37,7 @@ const ViewportProvider: FC = ({ children }) => {
     handleWindowResize();
     window.addEventListener('resize', handleWindowResize);
     return () => window.removeEventListener('resize', handleWindowResize);
-  }, [device]);
+  }, []);
 
   return (
     <ViewportContext.Provider value={{ device }}>
