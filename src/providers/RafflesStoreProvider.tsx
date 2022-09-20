@@ -165,6 +165,7 @@ const RafflesStoreProvider: FC = ({ children = null as any }) => {
         console.log(e);
       }
 
+
       setFetching(false);
     },
     [connection, draffleClient]

@@ -76,7 +76,17 @@ const tokenRegistry = {
     decimals: 9,
     logoURI: '/resources/samo-logo.png',
     tags: []
+  },
+  'MZenLrfXd2ukAktceeUeH539NyRXg2AWgn6SfbErozZ': {
+    chainId: 103,
+    address: 'MZenLrfXd2ukAktceeUeH539NyRXg2AWgn6SfbErozZ',
+    symbol: '$DEATH',
+    name: 'DEATH',
+    decimals: 9,
+    logoURI: '/resources/samo-logo.png',
+    tags: []
   }
+  
 };
 
 export const tokenInfoMap = new Map(Object.entries(tokenRegistry));
