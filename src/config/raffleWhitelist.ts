@@ -79,32 +79,39 @@ const prodWhitelist = new Map<string, RaffleMetaData>([
       overviewImageUri: '/resources/bitboat-raffle.gif',
     },
   ],
+  // [
+  //   '75SVM64EEQtW9KaseDduniMgmqG7auWEVbPA7VBeSWQm',
+  //   {
+  //     name: 'first raffle',
+  //     overviewImageUri: '/resources/bitboat-raffle.gif',
+  //   },
+  // ],
+  // [
+  //   'DDEVNUeuvR4p2BTo2rVmR5VGZSUx9KKzyeJkgoEPxWfg',
+  //   {
+  //     name: 'whitelist pass',
+  //     overviewImageUri: '/resources/ticket.png',
+  //   },
+  // ],
+  // [
+  //   'BTo3otoe1wFjqahD8nLmKhMHUt433xPE78iTyF1tr4za',
+  //   {
+  //     name: 'half finished',
+  //     overviewImageUri: '/resources/ticket.png',
+  //   },
+  // ],
+  // [
+  //   'Dw7BUbft4JohwwVPVG6KWYnadggUgu73LwArffVJrWQ8',
+  //   {
+  //     name: 'ticket for my cock',
+  //     overviewImageUri: '/resources/ticket.png',
+  //   },
+  // ],
   [
-    '75SVM64EEQtW9KaseDduniMgmqG7auWEVbPA7VBeSWQm',
+    'F4Wyzgj8HXF6moSe72wkvmLGfTrRL7VtZHzdDvCjvnY1',
     {
-      name: 'first raffle',
-      overviewImageUri: '/resources/bitboat-raffle.gif',
-    },
-  ],
-  [
-    'DDEVNUeuvR4p2BTo2rVmR5VGZSUx9KKzyeJkgoEPxWfg',
-    {
-      name: 'whitelist pass',
-      overviewImageUri: '/resources/ticket.png',
-    },
-  ],
-  [
-    'BTo3otoe1wFjqahD8nLmKhMHUt433xPE78iTyF1tr4za',
-    {
-      name: 'half finished',
-      overviewImageUri: '/resources/ticket.png',
-    },
-  ],
-  [
-    'Dw7BUbft4JohwwVPVG6KWYnadggUgu73LwArffVJrWQ8',
-    {
-      name: 'ticket for my cock',
-      overviewImageUri: '/resources/ticket.png',
+      name: '#1 mutilated',
+      overviewImageUri: '/resources/mutilated.png',
     },
   ],
 ]);
